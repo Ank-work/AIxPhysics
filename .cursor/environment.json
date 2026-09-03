@@ -1,4 +1,4 @@
 {
   "name": "AIxPhysics",
-  "install": "sudo apt-get update -qq && sudo apt-get install -y -qq python3-venv >/dev/null && python3 -m venv .venv && .venv/bin/pip install --upgrade pip && .venv/bin/pip install -r requirements.txt && .venv/bin/pip install -e ."
+  "install": "cd /agent/repos/AIxPhysics && sudo apt-get update -qq && sudo apt-get install -y -qq python3-venv >/dev/null && python3 -m venv .venv && .venv/bin/pip install --upgrade pip && .venv/bin/pip install -r requirements.txt && .venv/bin/pip install -e ."
 }
